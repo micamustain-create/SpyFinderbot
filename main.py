@@ -15,7 +15,7 @@ async def on_ready():
 @bot.command('findspy')
 @commands.has_permissions(administrator=True)
 async def find_spy(ctx):
-    await ctx.send('Purging spies!')
+    await ctx.send('Search Started!')
     c = 0
     for m in list(ctx.guild.members):
         if m.guild_permissions.administrator or m == ctx.guild.owner or m == bot.user: continue
