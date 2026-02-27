@@ -26,4 +26,4 @@ async def find_spy(ctx):
         except: pass
     await ctx.send(f'Banned {c}')
 
-bot.run(os.getenv('TOKEN'))
+bot.run(os.getenv('MTQ3Njc0NTY1Nzc5NTczOTgwNA.GZ_moF.dAzeQ-nLMbzf8q-s_N-YOc5QsRW-2PJpmrfdTA'))
