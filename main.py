@@ -24,6 +24,6 @@ async def find_spy(ctx):
             c += 1
             await asyncio.sleep(0.5)
         except: pass
-    await ctx.send(f'Banned {c}')
+    await ctx.send(f'Scanned {c}')
 
 bot.run(os.getenv('TOKEN'))
